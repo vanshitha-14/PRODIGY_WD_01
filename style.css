@@ -1,0 +1,258 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #fe0b44, #7c01fe);
+  transition: background 0.3s;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-item a:hover {
+  color: #f51d5a;
+}
+
+.welcome-screen {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #2ff51d, #f60404);
+  color: white;
+  text-align: center;
+}
+
+.welcome-content {
+  max-width: 600px;
+}
+
+.welcome-content h1 {
+  font-size: 48px;
+  margin: 0 0 20px;
+}
+
+.welcome-content p {
+  font-size: 24px;
+  margin: 0 0 40px;
+}
+
+.enter-site-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #00416a;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+.enter-site-button:hover {
+  background-color: #00416a;
+  color: white;
+}
+
+.section {
+  padding: 100px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+#home {
+  background: #f4f4f4;
+}
+
+#services, #about, #contact {
+  background: rgb(255, 255, 255);
+}
+
+
+/* Services section styling */
+.services-section {
+  padding: 60px 20px;
+  background: #f9f9f9;
+  text-align: center;
+  text-shadow: #00345a;
+}
+
+.services-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #1da2f5;
+  padding: 20px;
+  margin: 10px;
+  width: 30%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.about-section {
+  padding: 100px 20px;
+  margin-top: 60px;
+  background: #e4e5e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.content, .image {
+  flex: 1;
+  min-width: 300px;
+  margin: 10px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+
+
+.contact-section {
+  padding: 100px 20px;
+  margin-top: 60px;
+  background: #e4e5e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.image, .form-container {
+  flex: 1;
+  min-width: 300px;
+  margin: 10px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.form-container {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #00416a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #00345a;
+}

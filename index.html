@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="#services">Services</a></li>
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="welcome" class="welcome-screen">
+        <div class="welcome-content">
+            <h1>Welcome to Prodigy Infotech</h1>
+            <p>Delivering innovative tech solutions for a brighter future.</p>
+            <a href="https://prodigyinfotech.dev/" class="enter-site-button" class="soft-button">Enter Site</a>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h1>Our Services</h1>
+            <div class="services-cards">
+                <div class="card">
+                    <a href="/stop watch/index.html"><h2>Stopwatch</h2></a>
+                    <p>Track your time with our easy-to-use stopwatch.</p>
+                </div>
+                <div class="card">
+                    <a href="/tic-tac-toe/index.html" ><h2>Tic-Tac-Toe</h2></a>
+                    <p>Enjoy a classic game of Tic-Tac-Toe.</p>
+                </div>
+                <div class="card">
+                    <a href="/weather/index.html"> <h2>Weather Report</h2> </a>
+                    <p>Get the latest weather updates for your location.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container">
+          <div class="content">
+              <h1>About Us</h1>
+              <p>Welcome to Prodigy Infotech, your number one source for innovative tech solutions. We're dedicated to providing you the very best of technology services, with an emphasis on reliability, customer service, and uniqueness.</p>
+              <p>Prodigy Infotech has come a long way from its beginnings. When we first started out, our passion for cutting-edge technology drove us to start our own business.</p>
+              <p>We hope you enjoy our products and services as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.</p>
+              <p>Sincerely,<br>Prodigy Infotech Team</p>
+          </div>
+          <div class="image">
+              <img src="aboutus.jpg" alt="About Us Image">
+          </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container">
+          <div class="image">
+              <img src="contactus.jpg" alt="Contact Us Image">
+          </div>
+          <div class="form-container">
+              <h1>Contact Us</h1>
+              <form id="contact-form" action="submit_form.php" method="POST">
+                  <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="subject">Subject</label>
+                      <input type="text" id="subject" name="subject" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea id="message" name="message" rows="5" required></textarea>
+                  </div>
+                  <button type="submit" class="submit-button">Submit</button>
+              </form>
+          </div>
+      </div>
+  </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
